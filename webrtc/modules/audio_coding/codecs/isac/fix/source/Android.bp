@@ -22,9 +22,6 @@ cc_library_static {
                 "pitch_filter_c.c",
             ],
         },
-        mips: {
-            // TODO: Use pitch_estimator_mips.c for mips, pitch_estimator_c.c
-        },
     },
 
     srcs: [
